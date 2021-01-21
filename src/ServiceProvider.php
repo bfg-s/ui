@@ -47,6 +47,13 @@ class ServiceProvider extends ServiceProviderIlluminate
         $this->registerRouteMiddleware();
 
         $this->commands($this->commands);
+
+        /**
+         * Register publisher admin assets
+         */
+        $this->publishes([
+            __DIR__.'/../public' => public_path('vendor/ui'),
+        ], 'ui-assets');
     }
 
     /**

@@ -1,4 +1,4 @@
 {
-    "/assets/bootstrap.vue.ui.js": "/assets/bootstrap.vue.ui.js",
-    "/assets/bootstrap.ui.css": "/assets/bootstrap.ui.css"
+    "/public/ui.js": "/public/ui.js",
+    "/public/ui.css": "/public/ui.css"
 }
